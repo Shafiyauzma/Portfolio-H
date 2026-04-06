@@ -32,16 +32,14 @@ export default function Hero() {
           </h1>
           
           <p className="hero-about-text">
-            {summary.length > 220 
-              ? summary.substring(0, 220) + "..." 
-              : summary}
+            Software Engineer with hands-on experience in full-stack development, Artificial Intelligence, and Machine Learning, building scalable, high-performance applications and AI-driven systems. Skilled in developing and deployments.
           </p>
           
           <div className="hero-actions-row">
             <a href={linkedin} target="_blank" rel="noopener noreferrer" className="btn btn-violet-primary rounded-full">
               LinkedIn Profile
             </a>
-            <a href="#projects" className="btn btn-outline-violet rounded-full">
+            <a href="#experience" className="btn btn-outline-violet rounded-full">
               View My Work
             </a>
           </div>

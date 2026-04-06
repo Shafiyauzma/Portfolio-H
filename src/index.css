@@ -2624,4 +2624,87 @@ body::after {
     text-align: center;
   }
   .footer-brand-luxe { font-size: 2rem; }
+
+  .education-luxe-section { padding: 80px 0; }
+  .timeline-spine-container { 
+    gap: 40px; 
+    display: flex; 
+    flex-direction: column; 
+    position: relative;
+    padding-left: 30px; 
+  }
+  
+  .timeline-spine-container::after { 
+    display: block !important; 
+    content: '';
+    position: absolute;
+    left: 8px;
+    top: 0; bottom: 0;
+    width: 1px;
+    background: linear-gradient(180deg, 
+      transparent, 
+      rgba(139, 92, 246, 0.4) 15%, 
+      rgba(139, 92, 246, 0.4) 85%, 
+      transparent
+    );
+  }
+  
+  .edu-slate-luxe { 
+    display: flex !important;
+    flex-direction: column;
+    padding: 24px; 
+    border-radius: 20px; 
+    text-align: left !important;
+    border: 1px solid rgba(139, 92, 246, 0.1);
+    background: rgba(255, 255, 255, 0.01);
+    gap: 16px;
+    position: relative;
+    box-shadow: none; /* remove for cleaner look */
+  }
+  
+  .edu-node-ref { 
+    display: block !important; 
+    position: absolute;
+    left: -25.5px;
+    top: 36px;
+    width: 6px;
+    height: 6px;
+    background: var(--accent);
+    border-radius: 50%;
+    box-shadow: 0 0 10px var(--accent);
+  }
+  
+  .edu-degree-luxe { 
+    font-size: 1.2rem; 
+    margin-bottom: 4px; 
+    line-height: 1.4;
+  }
+  
+  .edu-institution-luxe { 
+    font-size: 0.9rem; 
+    margin-bottom: 8px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .edu-meta-row { 
+    justify-content: flex-start; 
+    flex-wrap: wrap;
+    gap: 8px; 
+  }
+  
+  .edu-score-side { 
+    text-align: left !important; 
+    padding-top: 12px; 
+    align-items: flex-start;
+    margin-top: 8px;
+    position: relative;
+  }
+  
+  .edu-cgpa-badge { 
+    background: rgba(139, 92, 246, 0.15);
+    border: 1px solid rgba(139, 92, 246, 0.25);
+    padding: 4px 12px; 
+    font-size: 0.8rem; 
+    display: inline-block;
+  }
 }
